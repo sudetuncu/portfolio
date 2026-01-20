@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #eef4ff;
+  color: #1e3a8a;
+}
+
+/* Ortak container */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* HEADER */
+header {
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* NAV */
+nav button {
+  background: none;
+  border: none;
+  margin-left: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  color: #555;
+}
+
+nav button:hover {
+  color: #4f46e5;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+/* PROFILE IMAGE */
+.profile {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+  background: #ccc;
+}
+
+/* HERO INFO */
+.hero h2 {
+  margin: 8px 0;
+}
+
+.hero p {
+  margin: 4px 0 16px;
+  color: #374151;
+}
+
+/* CONTACT INFO */
+.info {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+/* LINKS */
+.links {
+  display: flex;
+  gap: 12px;
+}
+
+.links a {
+  padding: 10px 16px;
+  color: white;
+  background: #111;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.links a:last-child {
+  background: #4f46e5;
+}
+
+/* CARD */
+.card {
+  background: white;
+  border-radius: 16px;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+/* CONTENT SECTIONS */
+.content {
+  padding: 10px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+/* SKILLS */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.skills span {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 4px 4px 0 0;
+  font-size: 13px;
+}
+
+/* BOX */
+.box {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+/* PROJECT GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 14px;
+}
+/* CARD GRID */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.card h3,
+.card h4 {
+  margin-top: 0;
+  color: #1e3a8a;
+}
+
+.card .sub {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+/* TAGS */
+.tag {
+  display: inline-block;
+  border: 1px solid #d1d5db;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  margin: 4px 4px 0 0;
+}
+/* ABOUT FEATURED */
+.about-featured {
+  background: white;
+  border-radius: 20px;
+  padding: 32px;
+  margin-bottom: 40px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+}
+
+.about-featured h3 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.about-featured p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #374151;
+}
+
+.about-meta {
+  margin-top: 16px;
+  color: #6b7280;
+  font-size: 14px;
+}
